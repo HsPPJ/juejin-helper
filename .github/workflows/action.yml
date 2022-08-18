@@ -19,10 +19,10 @@ jobs:
       - name: Depend install and serve
         env:
           COOKIE: ${{ secrets.COOKIE }}
-          EMAIL: ${{ secrets.EMAIL }}
-          AUTHORIZATION_CODE: ${{ secrets.AUTHORIZATION_CODE }}
-          DINGDING_WEBHOOK: ${{ secrets.DINGDING_WEBHOOK }}
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          # EMAIL: ${{ secrets.EMAIL }}
+          # AUTHORIZATION_CODE: ${{ secrets.AUTHORIZATION_CODE }}
+          # DINGDING_WEBHOOK: ${{ secrets.DINGDING_WEBHOOK }}
+          # PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         run: |
           npm install
           npm run serve
