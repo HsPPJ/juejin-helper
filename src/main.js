@@ -89,7 +89,7 @@ const main = async () => {
   }
 
   // BugFix
-  const notCollectBug = await juejin.getNotCollectBug()
+  /*const notCollectBug = await juejin.getNotCollectBug()
 
   if (notCollectBug.length > 0) {
     const requests = notCollectBug.map(bug => {
@@ -106,7 +106,7 @@ const main = async () => {
     }
 
     growth.collectedBug = true
-  }
+  }*/
 
   pushMessage({
     type: 'info',
